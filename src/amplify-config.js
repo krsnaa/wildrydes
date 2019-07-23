@@ -4,25 +4,25 @@
 // In this workshop, we are using the Amplify client libraries without the CLI toolchain so you should edit this file manually.
 
 const awsConfig = {
-    Auth: {
-        identityPoolId: '', // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
-        region: '', // example: 'us-east-2'
-        userPoolId: '', // example: 'us-east-2_teEUQbkUh'
-        userPoolWebClientId: '' // example: '3k09ptd8kn8qk2hpk07qopr86'
-    },
-    API: {
-        endpoints: [
-            {
-                name: 'WildRydesAPI',
-                endpoint: '', // example: 'https://u8swuvl00f.execute-api.us-east-2.amazonaws.com/prod'
-                region: '' // example: 'us-east-2'
-            }
-        ]
-    },
-    Storage: {
-        bucket: '', //example: 'wildrydesbackend-profilepicturesbucket-1wgssc97ekdph'
-        region: '' // example: 'us-east-2'
-    }
-}
+  Auth: {
+    identityPoolId: "us-east-1:d8e444c5-20dd-473e-916e-64d4ecb22248", // example: 'us-east-2:c85f3c18-05fd-4bb5-8fd1-e77e7627a99e'
+    region: "us-east-1", // example: 'us-east-2'
+    userPoolId: "us-east-1_9ZIDWPUHp", // example: 'us-east-2_teEUQbkUh'
+    userPoolWebClientId: "3k1bedsjj1bjr98tj8p8ar2cg5" // example: '3k09ptd8kn8qk2hpk07qopr86'
+  },
+  API: {
+    endpoints: [
+      {
+        name: "WildRydesAPI",
+        endpoint: "", // example: 'https://u8swuvl00f.execute-api.us-east-2.amazonaws.com/prod'
+        region: "" // example: 'us-east-2'
+      }
+    ]
+  },
+  Storage: {
+    bucket: "", //example: 'wildrydesbackend-profilepicturesbucket-1wgssc97ekdph'
+    region: "" // example: 'us-east-2'
+  }
+};
 
 export default awsConfig;
