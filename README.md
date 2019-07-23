@@ -368,7 +368,7 @@ Now that you've deployed the new authorizer configuration to production, all API
 
 In this module you've used API Gateway to provide a REST API to the Lambda function created in the previous module. From there you've updated the website to use the API endpoint so that you can request rides and the information about the ride is saved in the DynamoDB table created earlier.
 
-# Module 6: Serverless GraphQL API
+# Module 5: Serverless GraphQL API
 
 In this module you'll use [AWS AppSync] to build a GraphQL API to find more information about the rides you have taken so far. In a subsequent module you will then modify our web application to add the ride history page which will query this API.
 
